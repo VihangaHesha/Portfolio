@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/Assets/Icon/VHB-logo.png" />
     <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css" />
     <title>Vihanga Heshan Banadara</title>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -19,6 +16,7 @@
   <body id="body-container">
     <div class="nav-container">
       <header>
+        <label for="menu-toggle" class="overlay"></label>
         <div class="wrapper">
           <a href="/index.html" class="icon">
             <div class="tooltip">Home</div>
@@ -59,7 +57,7 @@
           <div class="home-about-container">
             <span
               class="home-about-name"
-              style="color: #9400ff; margin-bottom: -40px; font-weight: bolder"
+              style="color: #9400ff; font-weight: bolder"
             >
               SOFTWARE
             </span>
@@ -74,9 +72,8 @@
               >ENGINEER</span
             >
           </div>
-          <p>
-            <br /><span
-              style="font-size: 1.2rem; line-height: 1.1; opacity: 0.6"
+          <p class="home-p">
+            <br /><span class="home-about-text"
               >Passionate about creating intuitive and engaging user
               experiences. Specialize in transforming ideas into beautifully
               crafted products.</span
@@ -124,76 +121,6 @@
         </article>
       </div>
     </section>
-    <!-- ============================================== TECHNOLOGIES ============================================= -->
-
-    <article class="tech-stack" id="technologies">
-      <div class="section-headers">
-        <h2 class="sec-header-1">TECHNOLOGY</h2>
-        <h2 class="sec-header-2">STACK</h2>
-      </div>
-      <div class="tech-stack-container">
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-java-96-color.png"
-            alt="An icon of Java"
-          />
-          <div class="techs-desc">
-            <h3 class="h3">Java</h3>
-            <p class="p">Programming Language</p>
-          </div>
-        </div>
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-js-96-color.png"
-            alt="An icon of JavaScript"
-          />
-          <div class="techs-desc">
-            <h3 class="h3">JavaScript</h3>
-            <p class="p">Programming Language</p>
-          </div>
-        </div>
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-python-96-color.png"
-            alt="An icon of Python"
-          />
-          <div class="techs-desc">
-            <h3 class="h3">Python</h3>
-            <p class="p">Programming Language</p>
-          </div>
-        </div>
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-css-96-color.png"
-            alt="An icon of CSS"
-          />
-          <div class="techs-desc" style="padding-right: 40px">
-            <h3 class="h3">CSS</h3>
-            <p class="p">Styling Language</p>
-          </div>
-        </div>
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-html-96-color.png"
-            alt="An icon of HTML"
-          />
-          <div class="techs-desc" style="padding-right: 45px">
-            <h3 class="h3">HTML</h3>
-            <p class="p">Markup Language</p>
-          </div>
-        </div>
-        <div class="techs">
-          <img
-            src="/Assets/Icon/icons8-git-96-color.png"
-            alt="An icon of Git"
-          />
-          <div class="techs-desc" style="padding-right: 40px">
-            <h3 class="h3">Git</h3>
-            <p class="p">Version Controller</p>
-          </div>
-        </div>
-      </div>
-    </article>
 
     <!-- ============================================== PROJECTS ============================================= -->
 
@@ -269,7 +196,8 @@
     <article id="experience-education">
       <div class="section-headers">
         <h2 class="sec-header-1">EDUCATION</h2>
-        <h2 class="sec-header-2">& EXPERIENCES</h2>
+        <h2 class="sec-header-2" style="margin-bottom: -56px">&</h2>
+        <h2 class="sec-header-2">EXPERIENCES</h2>
       </div>
       <div class="edu-xp-container">
         <div class="edu-xp">
@@ -312,7 +240,7 @@
             <p>BSc. Engineering Technology 2023 onwards</p>
           </div>
         </div>
-        <div class="edu-xp" style="margin-left: 200px">
+        <div class="edu-xp bottom-edu-xp">
           <img
             src="/Assets/Images/Innovesta.png"
             alt="An image of Innovesta"
@@ -330,7 +258,7 @@
             </p>
           </div>
         </div>
-        <div class="edu-xp" style="margin-left: 200px">
+        <div class="edu-xp bottom-edu-xp">
           <img
             src="/Assets/Images/ijse.png"
             alt="An icon of a IJSE"
@@ -346,6 +274,77 @@
               the students and address the management problems of “Oxford
               Educational Institute”.
             </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- ============================================== TECHNOLOGIES ============================================= -->
+
+    <article class="tech-stack" id="technologies">
+      <div class="section-headers">
+        <h2 class="sec-header-1">TECHNOLOGY</h2>
+        <h2 class="sec-header-2">STACK</h2>
+      </div>
+      <div class="tech-stack-container">
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-java-96-color.png"
+            alt="An icon of Java"
+          />
+          <div class="techs-desc">
+            <h3 class="h3">Java</h3>
+            <p class="p">Programming Language</p>
+          </div>
+        </div>
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-js-96-color.png"
+            alt="An icon of JavaScript"
+          />
+          <div class="techs-desc">
+            <h3 class="h3">JavaScript</h3>
+            <p class="p">Programming Language</p>
+          </div>
+        </div>
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-python-96-color.png"
+            alt="An icon of Python"
+          />
+          <div class="techs-desc">
+            <h3 class="h3">Python</h3>
+            <p class="p">Programming Language</p>
+          </div>
+        </div>
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-css-96-color.png"
+            alt="An icon of CSS"
+          />
+          <div class="techs-desc" style="padding-right: 40px">
+            <h3 class="h3">CSS</h3>
+            <p class="p">Styling Language</p>
+          </div>
+        </div>
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-html-96-color.png"
+            alt="An icon of HTML"
+          />
+          <div class="techs-desc" style="padding-right: 45px">
+            <h3 class="h3">HTML</h3>
+            <p class="p">Markup Language</p>
+          </div>
+        </div>
+        <div class="techs">
+          <img
+            src="/Assets/Icon/icons8-git-96-color.png"
+            alt="An icon of Git"
+          />
+          <div class="techs-desc" style="padding-right: 40px">
+            <h3 class="h3">Git</h3>
+            <p class="p">Version Controller</p>
           </div>
         </div>
       </div>
@@ -383,8 +382,8 @@
         <textarea
           name="message"
           id="message"
-          cols="62"
-          rows="10"
+          cols="60"
+          rows="4"
           placeholder="Enter Your Message"
         ></textarea>
       </form>
@@ -434,5 +433,21 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="/JS/BurgerMenu.js"></script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const target = document.querySelector(this.getAttribute("href"));
+          const navHeight = document.querySelector("header").offsetHeight;
+
+          window.scrollTo({
+            top: target.offsetTop - navHeight - 30,
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
   </body>
 </html>

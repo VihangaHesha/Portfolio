@@ -1,0 +1,508 @@
+/* Mobile Small - 320px */
+@media screen and (max-width: 320px) {
+  /* Home Section */
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #home-about {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home-about p {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .home-about-name {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -14px;
+  }
+
+  #home-image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .sec-header-1 {
+    margin-bottom: -63px;
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Technologies Section */
+  .tech-stack-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .techs {
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .projects-container {
+    margin: 2rem 1rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Education & Experience Section */
+  .edu-xp-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .bottom-edu-xp {
+    margin-left: 0;
+  }
+
+  /* Contact Form */
+  .input-container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .input-container > input {
+    width: 90% !important;
+  }
+
+  textarea {
+    width: 90%;
+  }
+
+  /* Navigation */
+  .wrapper {
+    padding: 5px;
+  }
+
+  .wrapper .icon {
+    margin: 0 10px;
+  }
+
+  .wrapper .icon span {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Mobile Medium - 375px */
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #home-about {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home-about p {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .home-about-name {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -14px;
+  }
+
+  #home-image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .sec-header-1 {
+    margin-bottom: -63px;
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Technologies Section */
+  .tech-stack-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .techs {
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .projects-container {
+    margin: 2rem 1rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Education & Experience Section */
+  .edu-xp-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .bottom-edu-xp {
+    margin-left: 0;
+  }
+
+  /* Contact Form */
+  .input-container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .input-container > input {
+    width: 90% !important;
+  }
+
+  textarea {
+    width: 90%;
+  }
+
+  /* Navigation */
+  .wrapper {
+    padding: 5px;
+  }
+
+  .wrapper .icon {
+    margin: 0 10px;
+  }
+
+  .wrapper .icon span {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Mobile Large - 425px */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #home-about {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home-about p {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .home-about-name {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -14px;
+  }
+
+  #home-image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .sec-header-1 {
+    margin-bottom: -63px;
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Technologies Section */
+  .tech-stack-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .techs {
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .projects-container {
+    margin: 2rem 1rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Education & Experience Section */
+  .edu-xp-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .bottom-edu-xp {
+    margin-left: 0;
+  }
+
+  /* Contact Form */
+  .input-container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .input-container > input {
+    width: 90% !important;
+  }
+
+  textarea {
+    width: 90%;
+  }
+
+  /* Navigation */
+  .wrapper {
+    padding: 5px;
+  }
+
+  .wrapper .icon {
+    margin: 0 10px;
+  }
+
+  .wrapper .icon span {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  /* Home Section */
+  #home {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #home-about {
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home-about p {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .home-about-name {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -14px;
+  }
+
+  #home-image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  .sec-header-1 {
+    margin-bottom: -63px;
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #about-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Technologies Section */
+  .tech-stack-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .techs {
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .projects-container {
+    margin: 2rem 1rem;
+  }
+
+  .projects {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-image {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Education & Experience Section */
+  .edu-xp-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .bottom-edu-xp {
+    margin-left: 0;
+  }
+
+  /* Contact Form */
+  .input-container {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+
+  .input-container > input {
+    width: 90% !important;
+  }
+
+  textarea {
+    width: 90%;
+  }
+
+  /* Navigation */
+  .wrapper {
+    padding: 5px;
+  }
+
+  .wrapper .icon {
+    margin: 0 10px;
+  }
+
+  .wrapper .icon span {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* Laptop - 1024px */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Home Section */
+  #home-about p {
+    width: 400px;
+  }
+
+  /* Technologies Section */
+  .tech-stack-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  /* Education & Experience */
+  .edu-xp-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .bottom-edu-xp {
+    margin-left: 100px;
+  }
+}
+
+/* Laptop Large - 1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  /* Home Section */
+  #home-about p {
+    width: 450px;
+  }
+
+  /* Projects Section */
+  .projects-container {
+    margin: 5rem 8rem;
+  }
+
+  /* Education & Experience */
+  .bottom-edu-xp {
+    margin-left: 200px;
+  }
+}
+
+/* Common Responsive Styles */
+@media screen and (max-width: 768px) {
+  .sec-header-1,
+  .sec-header-2 {
+    font-size: 3rem;
+  }
+
+  .section-headers {
+    margin-top: 40px;
+  }
+
+  .h3 {
+    font-size: 1.4rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+
+  /* Footer */
+  .footer {
+    gap: 20px;
+  }
+
+  .footer img {
+    height: 40px;
+    width: 40px;
+  }
+}
