@@ -63,29 +63,6 @@ article {
   align-items: center;
   margin-top: 87px;
 }
-/* ============ Burger Menu ============ */
-/* #menu-toggle {
-  display: none;
-}
-
-.menu-icon,
-.close-icon {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-icon i,
-.close-icon i {
-  vertical-align: middle;
-  color: #ccc;
-  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.menu-icon i:hover,
-.close-icon i:hover {
-  color: #ffd273;
-  animation: fa-bounce 1s 1 ease-in-out;
-} */
 
 /* =========== Common =========== */
 .h3 {
@@ -406,7 +383,6 @@ a {
   background: #1b1a55;
   color: #fff;
   padding: 10px 18px;
-  /* font-size: ; */
   font-weight: 500;
   display: none;
   border-radius: 16px;
